@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Cityline Ultra-Fast Monitor & Click",
+  "version": "1.0",
+  "description": "Cityline 極速監控 + 0ms 自動點擊（支援測試模式）",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.cityline.com/*", "https://*.cityline.com.hk/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://*.cityline.com/*", "https://*.cityline.com.hk/*"]
+}
