@@ -68,3 +68,5 @@ Behavior in test mode:
 - Auto-click is disabled on `priority.cityline.com` to avoid click loops.
 - This project is for automation testing / personal workflow usage.
 - Website structure changes may require selector/logic updates.
+<img width="1440" height="811" alt="image" src="https://github.com/user-attachments/assets/01c929f4-9eca-4df0-908f-0142dc6d8a58" />
+
